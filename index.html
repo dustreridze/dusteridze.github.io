@@ -1,0 +1,163 @@
+	<!DOCTYPE html>
+	<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>GadgetGalaxy</title>
+		<link rel="shortcut icon" href="assets/icons/logo.png" />
+		<link rel="stylesheet" href="assets/styles/main.css">
+		<script src="./assets/scripts/main.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="wrap">
+					<a href="index.html" class="all-link"><img src="./assets/icons/logo.png" alt="" class="logo"></a>
+				<nav>
+					<ul>
+						<div class="left">
+							<li><a href="catalog.html" class="all-link"><b>Каталог</b></a></li>
+						    <li><a href="#" class="all-link"><b>Услуги</b></a></li>
+						    <li><a href="#" class="all-link"><b>Поддержка</b></a></li>
+						</div>
+						<div class="center">
+							<form action="#">
+							<li class="nav__search">
+								
+									<input type="text" placeholder="Поиск по сайту">
+									<button>
+										<img src="./assets/icons/search.png" alt="">
+									</button>
+								
+							</li>
+							</form>
+						</div>
+						<div class="right">
+							<li class="cities" onclick="open_cities()">
+								<img src="./assets/icons/location.png" alt="" class="nav__icon">
+								<div class="nav__text">Владимир</div>
+
+								<div class="pick-city">
+									<ul>
+										<li>Москва</li>
+										<li>Санкт-Петербург</li>
+										<li>Новосибирск</li>
+										<li>Владивосток</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<img src="./assets/icons/cart.png" alt="" class="nav__icon">
+							</li>
+							<a href="#" class="all-link"><li>
+								<img src="./assets/icons/login.png" alt="" class="nav__icon">
+								<a href="login.html" class="all-link"><div class="nav__text">Войти</div></a>
+							</li></a>
+						</div>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section class="slider__all">
+			<img src="assets/img/slider1.png" alt="" class="slide" width="100%">
+		</section>
+
+		<div class="wrapper">
+			<div class="product-category">
+				<div class="phone">
+					<a href="#"><img src="assets/img/telephone.png"></a>
+					<h2 class="main-text-category">Смартфоны</h2>
+					<p class="price-text-category">от 4 999 ₽</p>	
+
+
+				</div>
+				<div class="accessories">
+					<a href="#"><img src="assets/img/accessories.png"></a>
+					<h2 class="main-text-category">Аксессуары</h2>
+					<p class="price-text-category">от 399 ₽</p>	
+
+
+				</div>
+				<div class="support-for-smartphones">
+					<a href="#"><img src="assets/img/support-for-smartphones.png"></a>
+					<h2 class="main-text-category">Защита и поддержка для смартфонов</h2>
+					<p class="price-text-category">от 199 ₽</p>	
+				</div>
+
+			</div>
+
+			<h1 class="special">Специальные предложения</h1>
+			<div class="discount-category">
+				<div class="discount-category__1">
+					<h1 class="main-text-discount">До 26 ноября</h1>
+					<a href="#"><img src="assets/img/discount-category__1.png"></a>
+					<h2 class="product-name">HONOR X7A 4/128GB</h2>
+					<p class="active-price">10 999 ₽</p>
+					<p class="non-active-price">15 999 ₽</p>
+				</div>
+				<div class="discount-category__2">
+					<h1 class="main-text-discount">До 2 декабря</h1>
+					<a href="product_card.html"><img src="assets/img/discount-category__2.png"></a>
+					<h2 class="product-name">Apple iPhone 13 128GB</h2>
+					<p class="active-price">81 999 ₽</p>
+					<p class="non-active-price">85 999 ₽</p>
+				</div>
+				<div class="discount-category__3">
+					<h1 class="main-text-discount">До 31 декабря</h1>
+					<a href="#"><img src="assets/img/discount-category__3.png"></a>
+					<h2 class="product-name">Samsung Galaxy A54 128GB</h2>
+					<p class="active-price">29 999 ₽</p>
+					<p class="non-active-price">36 999 ₽</p>
+					
+				</div>
+			</div>
+		</div>
+		<div class="feedback-section">
+			<div class="feadback-search">
+				<h1 class="feadback-main-text">Будь в курсе последних новостей и акций </h1>
+				<form class="feadback-search_2">
+					<input type="search" value="" placeholder="" class="feadback-search-input">
+					<button type="submit" class="feadback-search-button" formaction="#"><b>Отправить</b></button>
+				</form>
+				<p class="feadback-text"> Подписываясь на рассылку, вы соглашаетесь с <a href="#" class="all-link"><span class="another-color">условиями оферты</span></a> и<br>
+  					<a href="#" class="all-link"><span class="another-color">политикой конфиденциальности</span></a>
+			</div>
+			<div class="hand-image">
+				<img src="assets/img/hand.png">
+			</div>
+			
+		</div>
+
+		<footer class="footer-page">
+			<div class="about-company">
+				<h1 class="about-company-main">Компания</h1>
+				<a href="company_information.html" class="all-link"><p class="about-company-text">О компании</p></a>
+				<a href="#" class="all-link"><p class="about-company-text">Сервисы</p></a>
+				<a href="#" class="all-link"><p class="about-company-text">Вакансии</p></a>
+				<a href="#" class="all-link"><p class="about-company-text">Партнерам</p></a>
+				<a href="#" class="all-link"><p class="about-company-text">Правила пользования сайтом</p></a>
+			</div>
+			<div class="purchaser">
+				<h1 class="purchaser-main">Покупателям</h1>
+				<a href="#" class="all-link"><p class="purchaser-text">Как оформить заказ</p></a>
+				<a href="#" class="all-link"><p class="purchaser-text">Способы оплаты</p></a>
+				<a href="#" class="all-link"><p class="purchaser-text">Кредиты</p></a>
+				<a href="#" class="all-link"><p class="purchaser-text">Доставка</p></a>
+				<a href="#" class="all-link"><p class="purchaser-text">Обмен, возврат, гарантия</p></a>
+			</div>
+			<div class="connection">
+				<h1 class="connection-main">Всегда на связи!</h1>
+				<a href="tel:+79045989088" class="all-link"><p class="connection-text">+7 904 598-90-88</p></a>
+				<p class="connection-text-time">c 10:00 до 23:00, без выходных</p>
+				<a href="mailto:naivin@inbox.ru" class="all-link"><p class="connection-text">naivin@inbox.ru</p></a>
+				<div class="messengers">
+					<a href="https://vk.com/id175488442" class="all-link"><img src="assets/icons/vk.png"></a>
+					<a href="https://t.me/dusteridze" class="all-link"><img src="assets/icons/tg.png"></a>
+					<a href="https://www.youtube.com/channel/UCrRaaUDi1iAiZGJfQMxcpIQ" class="all-link"><img src="assets/icons/youtube.png"></a>
+				</div>
+				<a href="#" class="all-link"><p class="privacy-policy">Политика конфиденциальности</p></a>
+				<p class="connection-end">© GadgetGalaxy, 2023</p>
+
+			</div>
+		</footer>
+	</body>
+	</html>
